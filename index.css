@@ -1,0 +1,154 @@
+body {
+    padding:0!important; 
+    margin:0 !important;
+  }
+
+.container {
+  max-width: 960px;
+  height:100%;
+}
+
+
+.logo {
+
+	position: relative;
+	padding-left: 50px;
+}
+
+.full {
+  position: relative;
+  top: -275px;
+  right: -725px;
+}
+.warranty {
+  position: relative;
+  top: -220px;
+  left: 0;
+  padding-top: 0;
+width: 100%;
+}
+.midBorder {
+  position: relative;
+  top: -300px;
+  width: 100%;
+
+}
+
+.bottom {
+	position: relative;
+width: 100%;
+top: -305px;
+}
+
+.copyright {
+	position: relative;
+	top: -310px;
+	width: 100%;
+  vertical-align: bottom;
+  display: block;
+}
+
+
+}
+
+.demo-form {
+  width: 400px;
+  padding: 40px;
+  border-radius: 3px;
+  background: white;
+  margin: 10px;
+  line-height: 38px;
+  font-size: 24px;
+  font-weight: 100;
+  color: #565656;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0 auto 45px;
+
+}
+
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 90%;
+  height: auto;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #e7e7e7;
+  border-radius: 3px;
+  background: #fcfcfc;
+  margin: 10px auto 20px;
+  transition: opacity 0.4s;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: darkblue;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+  
+  .demo-form, h1 {
+    display: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    
+  }
+  h1 {
+      text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+  }
+  
+}
+
+@media only screen and (max-width: 640px) {
+  
+  .container {
+    
+padding: 1px;    
+  }
+
+  .logo {
+  display: block;
+  margin: 0 auto;
+  padding-right: 40px;
+}
+h1 {
+  display: block;
+  margin: 0 auto;
+  color: darkblue;
+  padding-top: -70px;
+      font-family: 'Montserrat', sans-serif;
+
+}
+h2 {
+	display: block;
+  	margin: 0 auto;
+  	color: darkblue;
+  	text-align: center;
+  	    font-family: 'Montserrat', sans-serif;
+
+}
+  
+ .warranty, .full, .midBorder, .bottom {
+   display: none;
+ }
+ 
+.copyright {
+	position: absolute;
+	bottom: 0;
+}
